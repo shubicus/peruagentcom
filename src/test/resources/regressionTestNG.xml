@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" preserve-order="true" parallel="false" group-by-instances="true" verbose="1">
+
+    <test name="Peru">
+        <classes>
+            <!--Configs-->
+            <class name="config.HighLevelTestNGConfig"/>
+            <!--Runs First to Close Tutorial-->
+            <class name="tests.homepage.Tutorial"/>
+            <!--Tests-->
+            <class name="tests.homepage.ImagesAndBehave"/>
+            <class name="tests.homepage.SubButtonsLinked"/>
+            <class name="tests.homepage.SocialLinks"/>
+            <class name="tests.homepage.AppStoreGooglePlay"/>
+            <class name="tests.destination_discovery.introduction.NavigationIntroduction"/>
+            <class name="tests.destination_discovery.peru_essentials.NavigationPeruEssentials"/>
+            <class name="tests.destination_discovery.discover_peru.NavigationDiscoverPeru"/>
+            <class name="tests.destination_discovery.active_peru.NavigationActivePeru"/>
+            <class name="tests.destination_discovery.peru_target_markets.NavigationPeruTargetMarkets"/>
+            <class name="tests.destination_discovery.fast_facts.NavigationFastFacts"/>
+            <class name="tests.supplier_directory.tour_operators.ExternalLinksTours"/>
+            <class name="tests.supplier_directory.hotels_accommodation.ExternalLinksHotels"/>
+            <class name="tests.supplier_directory.cruises_river.ExternalLinksRiver"/>
+            <class name="tests.supplier_directory.cruises_river.ExternalLinksCruise"/>
+            <class name="tests.sales_toolbox.brochures.Brochures"/>
+            <class name="tests.sales_toolbox.videos.Videos"/>
+            <class name="tests.sales_toolbox.explore_peru.ExplorePeru"/>
+            <class name="tests.sales_toolbox.official_website.OfficialWebSite"/>
+            <class name="tests.sales_toolbox.presentation.Presentation"/>
+            <class name="tests.header.Header"/>
+            <class name="tests.contact.Contact"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,473 @@
+<suit name="regression.xml">
+
+    <package name="homepage">
+        <class name="ImagesAndBehave">
+
+            <test-case number="TC#001">
+                <test-method name="testImagesFourCenterButtonsAndLogo">
+                    <description
+                            title="This TC#001 verifies that Logo and four Center-Buttons are exist and have correct images.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#002">
+                <test-method name="testImagesHiddenDestinationDiscoveryButtons">
+                    <description
+                            title="This TC#002 verifies that Hidden DestinationDiscovery buttons are exist and have correct images.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#003">
+                <test-method name="testImagesHiddenSupplierDirectoryButtons">
+                    <description
+                            title="This TC#003 verifies that Hidden SupplierDirectory buttons are exist and have correct images.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#004">
+                <test-method name="testImagesHiddenSalesToolboxButtons">
+                    <description
+                            title="This TC#004 verifies that Hidden SalesToolbox buttons are exist and have correct images.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#005">
+                <test-method name="testLoginClick">
+                    <description title="This TC#005 verifies that on click LoginButton the WelcomeLoginForm is shown.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#006">
+                <test-method name="testLoginClickHide">
+                    <description
+                            title="This TC#006 verifies that on click LoginHideButton the WelcomeLoginForm is hidden.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#007">
+                <test-method name="testDestinationDiscoveryClickShow">
+                    <description
+                            title="This TC#007 verifies that on first click DestinationDiscoveryButton the SixImageButtons are shown.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#008">
+                <test-method name="testDestinationDiscoveryClickHide">
+                    <description
+                            title="This TC#008 verifies that on second click DestinationDiscoveryButton the SixImageButtons are hidden.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#009">
+                <test-method name="testSupplierDirectoryClickShow">
+                    <description
+                            title="This TC#009 verifies that on first click SupplierDirectoryButton the ThreeImageButtons are shown.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#0010">
+                <test-method name="testSupplierDirectoryClickHide">
+                    <description
+                            title="This TC#010 verifies that on second click SupplierDirectoryButton the ThreeImageButtons are hidden.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#0011">
+                <test-method name="testSalesToolboxButtonClickShow">
+                    <description
+                            title="This TC#011 verifies that on first click SalesToolboxButton the FiveImageButtons are shown.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#012">
+                <test-method name="testSalesToolboxButtonClickShowHide">
+                    <description
+                            title="This TC#012 verifies that on second click SalesToolboxButton the FiveImageButtons are hidden.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+
+        <class name="SocialLinks">
+            <test-case number="TC#013">
+                <test-method name="testSocialLinks">
+                    <description
+                            title="This TC#013 verifies that All SocialLinks are clickable and are opened in new Browser Tabs">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+
+        <class name="SubButtonsLinked">
+            <test-case number="TC#014">
+                <test-method name="testSubDestinationDiscoveryButtons">
+                    <description
+                            title="This TC#014 verifies that SubDestinationDiscovery Buttons are clickable and opens in new URL.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#015">
+                <test-method name="testSubSupplierDirectoryButtons">
+                    <description
+                            title="This TC#015 verifies that SubSupplierDirectory Buttons are clickable and opens in new BrowserTab.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+
+            <test-case number="TC#016">
+                <test-method name="testSubSalesToolboxButtons">
+                    <description
+                            title="This TC#016 verifies that Sub ButtonsSalesToolbox are clickable and opens in new URL.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+
+        <class name="Tutorial">
+            <test-case number="TC#017">
+                <test-method name="testTutorial">
+                    <description title="This TC#017 verifies that the Tutorial is present/visible.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+
+        <class name="AppStoreGooglePlay">
+            <test-case number="TC#018">
+                <test-method name="testAppStoreGooglePlay">
+                    <description title="This TC#018 verifies that AppStore and GooglePlay open in new BrowserTab.">
+                        <steps>
+
+                        </steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.introduction">
+        <class name="NavigationIntroduction">
+            <test-case number="TC#019">
+                <test-method name="testNavigationIntroductionPage">
+                    <description
+                            title="This TC#019 verifies that text-link navigate a user to the correct place of Introduction page.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.peru_essentials">
+        <class name="NavigationPeruEssentials">
+            <test-case number="TC#020">
+                <test-method name="testNavigationPeruEssentialsPage">
+                    <description
+                            title="This TC#020 verifies that text-link navigate a user to the correct place of the PeruEssentials page.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.discover_peru">
+        <class name="NavigationDiscoverPeru">
+            <test-case number="TC#021">
+                <test-method name="testNavigationDiscoverPeruPage">
+                    <description
+                            title="This TC#021 verifies that text-link navigate a user to the correct place of the DiscoverPeru page.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.active_peru">
+        <class name="NavigationActivePeru">
+            <test-case number="TC#022">
+                <test-method name="testNavigationActivePeruPage">
+                    <description
+                            title="This TC#022 verifies that text-link navigate a user to the correct place of the ActivePeru page.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.fast_facts">
+        <class name="NavigationFastFacts">
+            <test-case number="TC#023">
+                <test-method name="testFaceFastFactsPage">
+                    <description
+                            title="This TC#023 verifies that FastFactsPage has correct Face/Frontend.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#029">
+                <test-method name="testNavigationButtons">
+                    <description title="This TC#029 verifies that all Elements have correct behave.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="destination_discovery.peru_target_markets">
+        <class name="NavigationPeruTargetMarkets">
+            <test-case number="TC#024">
+                <test-method name="testNavigationPeruTargetMarketsPage">
+                    <description
+                            title="This TC#024 verifies that text-link navigate a user to the correct place of the PeruTargetMarkets page.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="sales_toolbox.brochures">
+        <class name="Brochures">
+            <test-case number="TC#025">
+                <test-method name="testPDFs">
+                    <description
+                            title="This TC#025 verifies that PDFs file are actual.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="sales_toolbox.explore_peru">
+        <class name="ExplorePeru">
+            <test-case number="TC#026">
+                <test-method name="testMap">
+                    <description
+                            title="This TC#026 verifies that the Map is actual.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="sales_toolbox.official_website">
+        <class name="OfficialWebSite">
+            There is no need implement this test-class
+            because related to TC#016
+        </class>
+    </package>
+
+    <package name="sales_toolbox.presentation">
+        <class name="Presentation">
+            <test-case number="TC#027">
+                <test-method name="testPDFs">
+                    <description
+                            title="This TC#027 verifies that the PDF file is actual.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="sales_toolbox.videos">
+        <class name="Videos">
+            <test-case number="TC#028">
+                <test-method name="testVideos">
+                    <description
+                            title="This TC#028 verifies that the Video files are actual.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="supplier_directory.cruises_river">
+        <class name="ExternalLinksCruise">
+            <test-case number="TC#030">
+                <test-method name="test1CruiseOperatorsCardBodyInfo">
+                    <description title="This TC#030 verifies that Cruise's card and body have the same info.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#031">
+                <test-method name="test2CruiseOperatorsExternalLinks">
+                    <description title="This TC#031 verifies that Cruise's external links are alive (code=200).">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+        <class name="ExternalLinksRiver">
+            <test-case number="TC#032">
+                <test-method name="test1RiverOperatorsCardBodyInfo">
+                    <description title="This TC#032 verifies that River's card and body have the same info.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#033">
+                <test-method name="test2RiverOperatorsExternalLinks">
+                    <description title="This TC#033 verifies that River's external links are alive (code=200).">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="supplier_directory.hotels_accommodation">
+        <class name="ExternalLinksHotels">
+            <test-case number="TC#034">
+                <test-method name="test1OperatorsCardBodyInfo">
+                    <description title="This TC#034 verifies that card and body have the same info.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#035">
+                <test-method name="test2HotelsExternalLinks">
+                    <description title="This TC#035 verifies that All external links are alive (code=200).">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="supplier_directory.tour_operators">
+        <class name="ExternalLinksTours">
+            <test-case number="TC#036">
+                <test-method name="test1OperatorsCardBodyInfo">
+                    <description title="This TC#036 verifies that card and body have the same info.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#037">
+                <test-method name="test2OperatorsExternalLinks">
+                    <description title="This TC#037 verifies that external links are alive (code=200).">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="header">
+        <class name="Header">
+            <test-case number="TC#038">
+                <test-method name="test1HeaderNavigationHome">
+                    <description title="This TC#038 verifies that the Header navigates to the Homepage.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#039">
+                <test-method name="test2HeaderNavigationDiscoverPeru">
+                    <description title="This TC#039 verifies that the Header navigates to the sub DiscoverPeru links.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#040">
+                <test-method name="test3HeaderNavigationSupplierShowcase">
+                    <description title="This TC#040 verifies that the Header navigates to the sub SupplierShowcase links.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+            <test-case number="TC#041">
+                <test-method name="test4HeaderNavigationSalesToolbox">
+                    <description title="This TC#041 verifies that the Header navigates to the sub SalesToolbox links.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+    <package name="contact">
+        <class name="Contact">
+            <test-case number="TC#042">
+                <test-method name="testContact">
+                    <description title="This TC#042 verifies that on click contact button user gets correct contact-card at the ContactPage.">
+                        <steps></steps>
+                    </description>
+                </test-method>
+            </test-case>
+        </class>
+    </package>
+
+</suit>
